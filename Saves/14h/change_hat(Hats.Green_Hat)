@@ -1,0 +1,16 @@
+change_hat(Hats.Green_Hat)
+do_a_flip()
+while True:
+    if can_haverst():
+        haverst()
+        
+    move(North)
+    if can_harvest():
+        harvest()
+
+    move(North)
+    if can_harvest():
+        harvest()
+
+    plant(Entities.Bush)
+    move(North)

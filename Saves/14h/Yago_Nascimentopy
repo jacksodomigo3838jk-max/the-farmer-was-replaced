@@ -1,0 +1,12 @@
+change_hat(Hats.Purple_Hat)
+do_a_flip
+While True
+    for in  range(2)
+        if can_harvest()
+            harvest()
+            plant (entities.bush)
+        move (north)
+    if can_haverst()
+         haverst()
+    move(north)
+     move(enst)
